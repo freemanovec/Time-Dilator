@@ -1,0 +1,6 @@
+tile.time_dilator_slow.name=Time Dilator (Slow)
+tile.time_dilator_mid.name=Time Dilator (Middle)
+tile.time_dilator_fast.name=Time Dilator (Fast)
+tile.time_dilator_slow_tall.name=Time Dilator (Slow, Tall Area)
+tile.time_dilator_mid_tall.name=Time Dilator (Middle, Tall Area)
+tile.time_dilator_fast_tall.name=Time Dilator (Fast, Tall Area)
