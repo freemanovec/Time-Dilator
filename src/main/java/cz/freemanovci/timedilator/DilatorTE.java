@@ -1,5 +1,6 @@
 package cz.freemanovci.timedilator;
 
+import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 
 public class DilatorTE extends TileEntity{
@@ -20,6 +21,8 @@ public class DilatorTE extends TileEntity{
 					int searchX = (x+xCoord);
 					int searchY = (y+yCoord);
 					int searchZ = (z+zCoord);
+					Block foundBlock = worldObj.getBlock(searchX, searchY, searchZ);
+					foundBlock.updateTick(worldObj, searchX, searchY, searchZ, worldObj.rand);
 					TileEntity found = worldObj.getTileEntity(searchX, searchY, searchZ);
 					if(found != null && found.canUpdate() && found.getClass() != this.getClass() && !found.isInvalid()){
 						for(int s = 0; s < speed; s++){
