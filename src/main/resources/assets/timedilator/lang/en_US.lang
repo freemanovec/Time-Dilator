@@ -1,0 +1,6 @@
+tile.TimeDilatorSlow.name=Time Dilator (Slow)
+tile.TimeDilatorMid.name=Time Dilator (Middle)
+tile.TimeDilatorFast.name=Time Dilator (Fast)
+tile.TimeDilatorSlowTall.name=Time Dilator (Slow, Tall Area)
+tile.TimeDilatorMidTall.name=Time Dilator (Middle, Tall Area)
+tile.TimeDilatorFastTall.name=Time Dilator (Fast, Tall Area)
